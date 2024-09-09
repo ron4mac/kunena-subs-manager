@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="filter" class="ks_filter">
+		<field
+			name="usergroup"
+			type="usergrouplist"
+			label="JGRID_HEADING_USERGROUP"
+			class="js-select-submit-on-change"
+			>
+			<option value="">COM_KSCRIBE_SELECT_USERGROUP</option>
+		</field>
+	</fields>
+	<fields name="list">
+		<!-- <field
+			name="usergroupl"
+			type="usergrouplist"
+			label="JGRID_HEADING_USERGROUP"
+			class="js-select-no-submit-on-change"
+			>
+			<option value="">COM_KSCRIBE_SELECT_USERGROUP</option>
+		</field> -->
+		<field
+			name="limit"
+			type="limitbox"
+			label="JGLOBAL_LIST_LIMIT"
+			default="25"
+			class="js-select-submit-on-change"
+		/>
+	</fields>
+</form>

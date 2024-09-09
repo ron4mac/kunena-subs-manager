@@ -1,0 +1,19 @@
+.js-stools {
+	position: relative;
+}
+.js-stools-container-filters {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 5px;
+}
+.sel-auto {
+	cursor: pointer;
+}
+.notenabled {
+	opacity: .3;
+}
+.auto-subbed {
+	color: var(--icon-success);
+}
